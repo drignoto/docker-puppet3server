@@ -8,3 +8,9 @@ Esta imagen contiene el servidor de Puppet 3 en una plantilla de Debian Jessie. 
 ```bash
 docker run -dt --hostname puppet.example -e FQDN=puppet.example ignoto/puppet3server
 ```
+
+#### Changelog:
+
+**1.0-subversion**:
+
+ - Esta imagen tiene instalado subversion para el control de módulos de Puppet a traves de SVN
